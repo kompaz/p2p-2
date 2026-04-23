@@ -1,0 +1,20 @@
+
+```gitignore
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts
+artifacts/*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db

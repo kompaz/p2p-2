@@ -1,0 +1,7 @@
+# EDA Sonuç Özeti
+# 1. customerID modele alınmayacak.
+# 2. TotalCharges sayısala çevrilecek, oluşan 11 eksik değer yönetilecek.
+# 3. Churn sınıf dengesizliği içeriyor (~%73 No, ~%27 Yes).
+# 4. Contract, tenure, MonthlyCharges, InternetService, TechSupport,
+#    PaymentMethod ve PaperlessBilling güçlü sinyal veriyor.
+# 5. İlk modelde tüm anlamlı sütunlar kullanılacak, feature engineering sonraya bırakılacak.
