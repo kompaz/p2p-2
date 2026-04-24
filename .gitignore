@@ -1,20 +1,40 @@
 
-```gitignore
+
 __pycache__/
 .ipynb_checkpoints/
 .venv/
 venv/
 .env
-*.pyc
+env/
 *.pyo
 *.pyd
 
-# Jupyter
-.ipynb_checkpoints/
 
-# Model artifacts
-artifacts/*.pkl
+*.py[cod]
+*$py.class
+*.pyc
 
-# OS files
+artifacts/
+
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+
+# OS
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Streamlit
+.streamlit/secrets.toml
+
+
+# Logs
+*.log
+training_log.txt
+
+# CatBoost training outputs
+catboost_info/
